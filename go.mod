@@ -1,9 +1,12 @@
-module github.com/tailscale/tailetc
+module github.com/yext/tailetc
 
 go 1.15
 
 require (
-	github.com/google/go-cmp v0.4.0
-	go.etcd.io/etcd v0.5.0-alpha.5.0.20201125193152-8a03d2e9614b
+	github.com/google/go-cmp v0.5.5
+	go.etcd.io/etcd/api/v3 v3.5.1
+	go.etcd.io/etcd/client/pkg/v3 v3.5.1
+	go.etcd.io/etcd/client/v3 v3.5.1
+	go.etcd.io/etcd/server/v3 v3.5.1
 	tailscale.com v1.2.10
 )
